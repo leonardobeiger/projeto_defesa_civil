@@ -7,8 +7,8 @@
 </head>
 <body>
 <div class="navbar">
-        <a href="index.php">Página Inicial</a>
-        <a href="consultar.php">Consoltar</a>
+        <a href="./index.php">Página Inicial</a>
+        <a href="./consultar/consultar.php">Consoltar</a>
     </div>
     <div class="primeiro-container">
         <div class="foto">
