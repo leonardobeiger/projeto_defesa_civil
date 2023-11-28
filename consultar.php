@@ -8,8 +8,8 @@
 <body>
 </html>
 <div class="navbar">
-        <a href="./index.php">Página Inicial</a>
-        <a href="./consultar.php">Consultar</a>
+        <a href="index.php">Página Inicial</a>
+        <a href="consultar.php">Consultar</a>
     </div>
     <div class="container">
             <h2>INFORME QUAL NÍVEL DO RIO: </h2>
@@ -21,7 +21,7 @@
             <?php
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             $valorMedida = ($_POST['valorMedida']);
-            if($valorMedida < 4){
+            if( $valorMedida < 4){
                 echo '<p> O RIO ESTÁ NO NÍVEL </p>  <h3 style=" color: #00a65a")>NORMAL</p>';
             }
             elseif($valorMedida >= 4 && $valorMedida < 5){
@@ -34,6 +34,7 @@
             elseif($valorMedida >= 6.5){
                 echo '<p> O RIO ESTÁ NO NÍVE DE  </p> <h3 style=" color: #dd4b39")>EMERGÊNCIA</p>';
             }
+            
         }
         
         ?>
