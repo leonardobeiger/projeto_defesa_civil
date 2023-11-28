@@ -8,8 +8,8 @@
 <body>
 </html>
 <div class="navbar">
-        <a href="../index.php">Página Inicial</a>
-        <a href="../consultar/consultar.php">Consultar</a>
+        <a href="./index.php">Página Inicial</a>
+        <a href="./consultar.php">Consultar</a>
     </div>
     <div class="container">
             <h2>INFORME QUAL NÍVEL DO RIO: </h2>
