@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Pagina Inicial</title>
 </head>
 <body>
 <div class="navbar">
         <a href="./index.php">Página Inicial</a>
-        <a href="./consultar.php">Contato</a>
+        <a href="./consultar.php">Consoltar</a>
     </div>
     <div class="primeiro-container">
         <div class="foto">
