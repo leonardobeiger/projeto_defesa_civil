@@ -25,14 +25,14 @@
                 echo '<p> O RIO ESTÁ NO NÍVEL </p>  <h3 style=" color: #00a65a")>NORMAL</p>';
             }
             elseif($valorMedida >= 4 && $valorMedida < 5){
-                echo '<p> O RIO ESTÁ NO NÍVE DE </p> <h3 style=" color: #ffce00")>ATENÇÃO</p>';
+                echo '<p> O RIO ESTÁ NO NÍVEL DE </p> <h3 style=" color: #ffce00")>ATENÇÃO</p>';
             }
             elseif($valorMedida >= 5 && $valorMedida < 6.5){
-                echo '<p> O RIO ESTÁ NO NÍVE DE  </p> <h3 style=" color:#ff851b")>ALERTA</p>';
+                echo '<p> O RIO ESTÁ NO NÍVEL DE  </p> <h3 style=" color:#ff851b")>ALERTA</p>';
                 
             }   
             elseif($valorMedida >= 6.5){
-                echo '<p> O RIO ESTÁ NO NÍVE DE  </p> <h3 style=" color: #dd4b39")>EMERGÊNCIA</p>';
+                echo '<p> O RIO ESTÁ NO NÍVEL DE  </p> <h3 style=" color: #dd4b39")>EMERGÊNCIA</p>';
             }
             
         }
