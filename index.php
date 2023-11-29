@@ -9,6 +9,7 @@
 <div class="navbar">
         <a href="./index.php">Página Inicial</a>
         <a href="./consultar.php">Consultar</a>
+        <a href="./acumulado.php">Acumulado de Chuva Abaixo das Barragens</a>
     </div>
     <div class="primeiro-container">
         <div class="foto">
