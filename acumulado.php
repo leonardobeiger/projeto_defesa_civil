@@ -84,7 +84,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         echo "<h2>Na última $horas hora, o Alto Vale do Itajaí registrou um acumulado de $resultado mm de chuva abaixo das barragens.</h2>";
     }
     else{ 
-        echo "Nas últimas $horas horas, o Alto Vale do Itajaí registrou um acumulado de $resultado mm de chuva abaixo das barragens.";
+        echo "<h2>Nas últimas $horas horas, o Alto Vale do Itajaí registrou um acumulado de $resultado mm de chuva abaixo das barragens.</h2>";
 
     }
    
